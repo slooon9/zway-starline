@@ -1,0 +1,78 @@
+{
+	"singleton": false,
+	"dependencies": [],
+	"category": "support_external_dev",
+	"author": "SmartHT",
+	"icon": "icon.png",
+	"moduleName": "Starline",
+	"version": "1.0.0",
+	"maturity": "stable",
+	"defaults": {
+		"title": "__m_title__",
+		"description": "__m_descr__",
+		"login": "",
+		"pass": "",
+		"appid": "",
+		"appsecret": "",
+		"smscode": "",
+		"captchaCode": ""
+	},
+	"schema": {
+		"type": "object",
+		"properties": {
+			"login": {
+                "type": "string",
+                "required": true
+            },
+            "pass": {
+				"format": "password",
+                "type": "string",
+                "required": true
+            },
+            "appid": {
+                "type": "string",
+                "required": true
+            },
+            "appsecret": {
+                "type": "string",
+                "required": true
+            },
+            "smscode": {
+                "type": "string",
+                "required": false
+            },
+			"captchaCode": {
+				"type": "string",
+                "required": false
+            }
+		}
+	},
+	"options": {
+		"fields": {
+			"login": {
+                "label": "__login__",
+				"helper": "__h_login__"
+            },
+            "pass": {
+                "label": "__pass__",
+				"helper": "__h_pass__"
+            },
+            "appid": {
+                "label": "__app_id__",
+				"helper": "__h_app_id__"
+            },
+            "appsecret": {
+                "label": "__app_secret__",
+				"helper": "__h_app_secret__"
+            },
+            "smscode": {
+                "label": "__sms_code__",
+				"helper": "__h_sms_code__"
+            },
+            "captchaCode": {
+                "label": "__captcha_code__",
+				"helper": "__h_captcha_code__"
+            }
+		}
+	}
+}

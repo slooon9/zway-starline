@@ -1,0 +1,20 @@
+{
+	"m_title": "Starline",
+	"m_descr": "<p>The application allows you to manage Starline security complexes. </p><br><p>Available:</p><ul> <li>Security management (setting/removing);</li> <li>Engine Management (Start-up/Shutdown);</li> <li>The temperature in the cabin;</li> <li>Engine temperature.</li></ul><br><p>Login – your login to <a href=https://starline-online.ru>starline-online.ru </a></p><p> Password – the user's password on <a href=https://starline-online.ru>starline-online.ru </a></p><p> Application ID (AppID) – must be obtained in your personal account at <a href=https://my.starline.ru>my.starline.ru </a> in the Developers section</p><p> Application password (AppSecret) – you need to get it in your personal account at <a href=https://my.starline.ru>my.starline.ru </a> in the Developers section</p>",
+	"h_login":"User login or any of the confirmed emails",
+	"login":"Login",
+	"h_pass":"User password",
+	"pass":"Password",
+	"h_app_id": "Application ID. You need to get on my.starline.ru ",
+	"h_app_secret": "Application password. You need to get on my.starline.ru ",
+	"app_id": "Application ID",
+	"app_secret": "Application password",
+	"h_sms_code": "Sms code, if two-factor authorization is enabled, after adding the application, you will receive an SMS, go back to the application settings and enter this code",
+	"sms_code": "Sms code",
+	"h_captcha_code": "Captcha Code - In case of incorrect login or password entry, you will need to enter a Captcha in the future, see 'Notifications'.",
+	"captcha_code": "Captcha Code",
+	"device_ctemp": "Temperature",
+	"device_etemp": "Engine Temperature",
+	"device_engine": "Engine",
+	"device_arm": "Security"
+}
