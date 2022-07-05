@@ -7,6 +7,11 @@
 	"moduleName": "Starline",
 	"version": "1.0.0",
 	"maturity": "stable",
+	"homepage": "https://github.com/smartht2/zway-starline",
+	"repository": {
+		"source": "https://github.com/smartht2/zway-starline",
+		"type": "git"
+	},
 	"defaults": {
 		"title": "__m_title__",
 		"description": "__m_descr__",
